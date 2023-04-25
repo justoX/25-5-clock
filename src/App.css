@@ -1,0 +1,17 @@
+* {
+  border: 1px solid black;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#titles {
+  display: flex;
+  justify-content: space-around;
+  height: 10%;
+  width: 20%;
+}
