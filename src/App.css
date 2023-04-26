@@ -1,6 +1,7 @@
-* {
+/* * {
   border: 1px solid black;
-}
+} */
+
 #root {
   display: flex;
   flex-direction: column;
@@ -12,6 +13,16 @@
 #titles {
   display: flex;
   justify-content: space-around;
-  height: 10%;
-  width: 20%;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+#titles > div {
+  text-align: center;
+  margin: 1rem;
+}
+
+#break-increment, #break-decrement, #session-increment, #session-decrement {
+  cursor: pointer;
 }
